@@ -7,7 +7,7 @@ using UnityEngine;
 public class State : ScriptableObject {
 
     
-    private string storyText;
+    [TextArea(10,14)] [SerializeField] private string storyText;
 
     public string getStoryText() {
         return storyText;
