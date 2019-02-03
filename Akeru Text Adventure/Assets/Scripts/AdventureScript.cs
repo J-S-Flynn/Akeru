@@ -20,8 +20,24 @@ public class AdventureScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		manageState(); 
 	}
-	
+
+	private void manageState() {
+
+		var nextState = currentState.getNextState();
+
+		if (Input.GetKeyDown(KeyCode.Alpha1)) {
+			currentState = nextState[0]; 
+		}
+		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+			currentState = nextState[1];
+		}
+		else {
+			currentState = nextState[2];
+		}
+
+		textField.text = currentState.getStoryText(); 
+	}
 	
 }
