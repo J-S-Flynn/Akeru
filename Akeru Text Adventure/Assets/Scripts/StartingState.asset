@@ -11,3 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
+  storyText: Welcome to the airship Akeru. One of the last ships capable of descending
+    below the corona, the thick haze that now covers the surface. Nobody knows why
+    the Carona formed, some say it was the result of the experiments of men, other
+    the natural defence of the planate below in response to man's disregard for it.
+    Whatever the case the one thing that everyone can agree on is that things lurk
+    in the corona. Things only seen in the storybooks of old. Many have tried to venture
+    below the corona, very few have returned. Now it is your turn Adventurer. Perhaps
+    you will succeed where so many have failed. Good look.
+  nextState:
+  - {fileID: 11400000, guid: a93636ebb28954905a953bf60306b6af, type: 2}
