@@ -11,5 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: JordansFine
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: "You move over to Jordan and look for a pulse. she begins to move as
+    you skin touchers hers and her eyes flutter open. she reaches for the wrench and
+    begins to swing it. \n\n1. Grab her hand\n2. Punch her (dead end)"
+  nextState:
+  - {fileID: 11400000, guid: 338137191e8a544dd845a1875155de0c, type: 2}

@@ -11,7 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: CabbinHallway
   m_EditorClassIdentifier: 
-  storyText: 'You walk out into the hall, the mist swirls around your feet, setting
-    the skin atingle as it slips up inder your trowsers. '
+  storyText: "You walk out into the hall, the mist swirls around your feet, setting
+    the skin atingle as it slips up inder your trowsers. Luckaly there does not seem
+    to be a lot, but its slowly crawling down the corridor from the bridge. You should
+    find where its getting on to the shop, and try to stop it. But if you can restart
+    the engin you might be able to get the ship clear. \n\n1. Go to the Bridge \n2.
+    Go to enginering "
   nextState:
-  - {fileID: 11400000, guid: 9bc0e39cc17cb46da960c9960ce5aa9e, type: 2}
+  - {fileID: 11400000, guid: 1fc7fcf71cd5e42d99df370902a47d06, type: 2}
+  - {fileID: 11400000, guid: 604c43b36cb4d4969964b1b3b3a9a109, type: 2}

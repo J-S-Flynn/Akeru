@@ -11,5 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: DontTurnYourBack
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: 'as you reach for the winch to close the ports you feel a sharp sting
+    in your side followed by somthing warm and wet. your hand instinctivly swats at
+    it, coming away bloody. you fall to your knees as the captins hand reaches past
+    you and crancks the ports as wide as they can go, the last thing you feel is the
+    mist seeping into you mouth and nose as the world goes black '
+  nextState:
+  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

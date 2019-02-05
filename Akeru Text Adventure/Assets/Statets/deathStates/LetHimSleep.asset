@@ -11,5 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: LetHimSleep
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: 'As you reach for the captin his hand snakes out and grabs  your wrist,
+    displaying imposible strength for the old man. He pulls you in close as his eyes
+    snap open, revealing the swerling mist within as he pushis his dagger inso your
+    side. '
+  nextState:
+  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

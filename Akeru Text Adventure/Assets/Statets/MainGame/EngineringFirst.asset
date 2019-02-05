@@ -11,5 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: EngineringFirst
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: "As you get to enginering you can see you friend Jordan laying on the
+    floor her big rench laying just out of reach and scorch maks on her fingers. the
+    engin is dead but you cant see anything emediatly wrong with it, yo will need
+    to take a closer look. \n\n1. Look at the Engin \n2. check on Jordan "
+  nextState:
+  - {fileID: 11400000, guid: aeaeeceba19b74d4bbf6c327b615a1bb, type: 2}
+  - {fileID: 11400000, guid: fab42f5e2c01d4b82a22fec84356c919, type: 2}

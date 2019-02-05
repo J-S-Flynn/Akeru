@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: gameOver
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: "You died \n\n1. play again \n2. quit "
+  nextState:
+  - {fileID: 11400000, guid: a93636ebb28954905a953bf60306b6af, type: 2}
+  - {fileID: 11400000, guid: 00c656e76fac74f58a728221b78b7b83, type: 2}

@@ -11,5 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: CoweredsWay
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: 'You push youself in to the space between your bunk and the bulk head,
+    trying to be as small as possible, hopeing that some one can save you. in the
+    distance you can hear foot steps coming from the direction of the bridge.  The
+    door swings open and the captin steps through, you have just enough time to see
+    the swerling of the mist in his eyes as he draws his sword up. '
+  nextState:
+  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

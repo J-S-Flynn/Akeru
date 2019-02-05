@@ -11,5 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: LadysFirst
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: 'You step over jordans prone body and begin to look at te engin. Your
+    not the expert she is but you can see that the main power cable has been pulled.
+    you push it iin and the engins begin there lazy assent to full power. As you do
+    Jordan grabs you leg, her eyes wide. she tries to drag herself to the engin as
+    the mist begins to pour out of it, it snakes its way up your leg, piercing the
+    skin as it invades your flesh. It pulses through you and you watch in horror as
+    your hand reaches dwn to grab the rench from jordan and rais it high over her. '
+  nextState:
+  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

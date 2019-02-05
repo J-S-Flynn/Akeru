@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: endOfDemo
   m_EditorClassIdentifier: 
-  storyText: 
-  nextState: []
+  storyText: 'Thanks for playing this little game. hope we will get more soon '
+  nextState:
+  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

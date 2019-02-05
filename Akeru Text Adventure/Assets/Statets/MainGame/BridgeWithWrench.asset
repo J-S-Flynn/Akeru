@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Name: BridgeWithWrench
   m_EditorClassIdentifier: 
   storyText: 
-  nextState: []
+  nextState:
+  - {fileID: 11400000, guid: 35c5ee6f75724489cb3225630d73288d, type: 2}
+  - {fileID: 11400000, guid: 3a2ac2e2a62114c93a4e8587325829d3, type: 2}
