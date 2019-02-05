@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
+  m_Name: BridgeFirst
+  m_EditorClassIdentifier: 
+  storyText: "You take the corridor to the Bridge. as you eneter you can see the captin
+    unconsius in his chair, the wheel spining freely. the deck hands look to be dead,
+    and the ports are slightly open, letting in the mist from ourtside. As well as
+    whetever it is thats in it.  \n\n1. Close the Ports \n2. Check the Captain "
+  nextState:
+  - {fileID: 11400000, guid: 35c5ee6f75724489cb3225630d73288d, type: 2}
+  - {fileID: 11400000, guid: 95c5f83c7b0964e16afc42beb21d7ade, type: 2}
