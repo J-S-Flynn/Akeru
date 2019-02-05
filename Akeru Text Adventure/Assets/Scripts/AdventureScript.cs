@@ -33,9 +33,7 @@ public class AdventureScript : MonoBehaviour {
 		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
 			currentState = nextState[1];
 		}
-		else {
-			currentState = nextState[2];
-		}
+		
 
 		textField.text = currentState.getStoryText(); 
 	}
