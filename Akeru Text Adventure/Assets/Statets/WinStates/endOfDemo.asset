@@ -11,6 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: endOfDemo
   m_EditorClassIdentifier: 
-  storyText: 'Thanks for playing this little game. hope we will get more soon '
+  storyText: "As you reach for the captin his hand snakes out and grabs  your wrist,
+    displaying imposible strength for the old man. He pulls you in close as his eyes
+    snap open, revealing the swerling mist within. you bring the wrench down on his
+    wrist wich lets out a sickaning crack, while you pull it back for anouther swing.
+    \n\nThanks for playing "
   nextState:
   - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}

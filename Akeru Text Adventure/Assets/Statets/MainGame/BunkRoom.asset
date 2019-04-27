@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: BunkRoom
   m_EditorClassIdentifier: 
-  storyText: 'You find yourself in your bunk, the alarmes blur from the bridge and
+  storyText: "You find yourself in your bunk, the alarmes blur from the bridge and
     the soft hum of the engins is curiusly absent. Protacal dictates that you shoukd
     head to the bridge but as you look throgh the window of your bunk room door you
     can see a thin layer of mist creeping dorwn the hall for the direction of the
-    bridge. You must have stoped in the mist. '
+    bridge. You must have stopped in the mist. \n\n1. open the door\n2. stay put"
   nextState:
   - {fileID: 11400000, guid: 870886a1c41e149a1b22a3ddfe45b87b, type: 2}
   - {fileID: 11400000, guid: b5cd3b63c42ec4d0c8550b7a45def6fb, type: 2}

@@ -8,7 +8,8 @@ public class AdventureScript : MonoBehaviour {
 
 	[SerializeField] private State startingState;
 
-	private State currentState; 
+	private State currentState;
+	
 	// Use this for initialization
 	void Start () {
 
@@ -32,6 +33,9 @@ public class AdventureScript : MonoBehaviour {
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
 			currentState = nextState[1];
+		}
+		else if (Input.GetKeyDown(KeyCode.Return) && nextState.Length == 1) {
+			currentState = nextState[0];
 		}
 		
 
