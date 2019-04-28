@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,11 +13,11 @@ MonoBehaviour:
   m_Name: CabbinHallway
   m_EditorClassIdentifier: 
   storyText: "You walk out into the hall, the mist swirls around your feet, setting
-    the skin atingle as it slips up inder your trowsers. Luckaly there does not seem
+    the skin tingle as it slips up under your trousers. Luckily there does not seem
     to be a lot, but its slowly crawling down the corridor from the bridge. You should
-    find where its getting on to the shop, and try to stop it. But if you can restart
-    the engin you might be able to get the ship clear. \n\n1. Go to the Bridge \n2.
-    Go to enginering "
+    find where it is getting into the ship, and try to stop it. But if you can restart
+    the engine you might be able to get the ship clear. \n\n1. Go to the Bridge \n2.
+    Go to engineering "
   nextState:
   - {fileID: 11400000, guid: 1fc7fcf71cd5e42d99df370902a47d06, type: 2}
   - {fileID: 11400000, guid: 604c43b36cb4d4969964b1b3b3a9a109, type: 2}

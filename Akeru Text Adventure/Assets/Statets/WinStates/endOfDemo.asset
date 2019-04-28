@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,6 +16,6 @@ MonoBehaviour:
     displaying imposible strength for the old man. He pulls you in close as his eyes
     snap open, revealing the swerling mist within. you bring the wrench down on his
     wrist wich lets out a sickaning crack, while you pull it back for anouther swing.
-    \n\nThanks for playing "
+    \n\npress enter ."
   nextState:
-  - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}
+  - {fileID: 11400000, guid: 05a4ab1502ea14f06b56ffd0348d55e1, type: 2}

@@ -28,17 +28,20 @@ public class AdventureScript : MonoBehaviour {
 
 		var nextState = currentState.getNextState();
 
-		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			currentState = nextState[0]; 
-		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			currentState = nextState[1];
-		}
-		else if (Input.GetKeyDown(KeyCode.Return) && nextState.Length == 1) {
-			currentState = nextState[0];
+		for (int i = 0; i < nextState.Length; i++) {
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i)) {
+				currentState = nextState[i]; 
+			}	
 		}
 		
-
+		/*
+			if (Input.GetKeyDown(KeyCode.Alpha1)) {
+				currentState = nextState[0]; 
+			}
+			else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+				currentState = nextState[1];
+			}
+		*/
 		textField.text = currentState.getStoryText(); 
 	}
 	

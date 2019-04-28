@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,9 +13,9 @@ MonoBehaviour:
   m_Name: DontTurnYourBack
   m_EditorClassIdentifier: 
   storyText: 'as you reach for the winch to close the ports you feel a sharp sting
-    in your side followed by somthing warm and wet. your hand instinctivly swats at
-    it, coming away bloody. you fall to your knees as the captins hand reaches past
-    you and crancks the ports as wide as they can go, the last thing you feel is the
-    mist seeping into you mouth and nose as the world goes black '
+    in your side followed by something warm and wet. Your hand instinctively swats
+    at it, coming away bloody. you fall to your knees as the captain''s hand reaches
+    past you and cracks the ports as wide as they can go, the last thing you feel
+    is the mist seeping into your mouth and nose as the world goes black '
   nextState:
   - {fileID: 11400000, guid: 3d1e1d932414f4dfb886b25ba60636ba, type: 2}
