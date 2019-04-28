@@ -4,19 +4,20 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: engineringTwo
   m_EditorClassIdentifier: 
-  storyText: "Jordan looks into your eyes and breaths out a sigh of releaf. \"Your
-    not one of them\" she says. she tels you of how somthing had hapend to one of
-    the enginers and he had let the mist in through the engin so she had to pull the
-    power, then he attacked her and she thought she saw him making for the bridge.
-    You set her agaist the bulk head and head for the bridge, as you are about to
-    leave she offers you the rench, you might need it, but then again she may too.
+  storyText: "Jordan looks into your eyes and breaths out a sigh of relief. \"Your
+    not one of them,\" she says. she tells you of how something had happened to one
+    of the enginers and he had let the mist in through the engine so she had to pull
+    the power, then he attacked her and she thought she saw him making for the bridge.
+    You set her against the bulkhead and head for the bridge, as you are about to
+    leave she offers you the ranch, you might need it, but then again she may too.
     \n\n1. Take the wrench \n2. leave the wrench "
   nextState:
   - {fileID: 11400000, guid: e412e249eb10443df8cd28fa38d6592b, type: 2}

@@ -4,14 +4,18 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be977a75ab47d484d92acd4190382c28, type: 3}
   m_Name: BridgeWithWrench
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You take the corridor to the Bridge. As you enter you can see the captain
+    unconscious in his chair, the wheel spinning freely. the deck hands look to be
+    dead, and the ports are slightly open, letting in the mist from outside. As well
+    as whatever it is that is in it.  \n\n1. Close the Ports \n2. Check the Captain "
   nextState:
   - {fileID: 11400000, guid: 35c5ee6f75724489cb3225630d73288d, type: 2}
   - {fileID: 11400000, guid: 3a2ac2e2a62114c93a4e8587325829d3, type: 2}

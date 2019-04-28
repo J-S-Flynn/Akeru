@@ -8,7 +8,8 @@ public class AdventureScript : MonoBehaviour {
 
 	[SerializeField] private State startingState;
 
-	private State currentState; 
+	private State currentState;
+	
 	// Use this for initialization
 	void Start () {
 
@@ -27,14 +28,20 @@ public class AdventureScript : MonoBehaviour {
 
 		var nextState = currentState.getNextState();
 
-		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			currentState = nextState[0]; 
-		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			currentState = nextState[1];
+		for (int i = 0; i < nextState.Length; i++) {
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i)) {
+				currentState = nextState[i]; 
+			}	
 		}
 		
-
+		/*
+			if (Input.GetKeyDown(KeyCode.Alpha1)) {
+				currentState = nextState[0]; 
+			}
+			else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+				currentState = nextState[1];
+			}
+		*/
 		textField.text = currentState.getStoryText(); 
 	}
 	
